@@ -3,8 +3,8 @@ import os
 from utils_cleaning import nettoyer_email, uniformiser_pays, normaliser_telephone, supprimer_doublons
 
 #  Définir les chemins
-data_path = "../data"
-out_path = "../out"
+data_path = "./data"
+out_path = "./out"
 
 
 

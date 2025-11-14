@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 
-data_path = "../data"
-out_path = "../out"
+data_path = "./data"
+out_path = "./out"
 
 # Charger fichiers
 catalog_fr = pd.read_csv(os.path.join(data_path, "catalog_fr.csv"))
